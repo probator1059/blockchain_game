@@ -12,5 +12,6 @@ contract MemoryToken is ERC721Full  {
        _mint(_to, _tokenId);
        _setTokenURI(_tokenId, _tokenURI);
        return true;
+       
     }
 }
